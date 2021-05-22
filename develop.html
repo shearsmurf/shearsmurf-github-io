@@ -1,0 +1,367 @@
+<!-- develop.html -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Hello, world!</title>
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="fixnav">
+  <a class="navbar-brand" id="chrisspacer" href="#">Chris Fernandes</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link navtext navlistspacer" href="index.html">Home </a>
+      <a class="nav-item nav-link active navtext navlistspacer" href="develop.html">Develop<span
+          class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link navtext navlistspacer" href="resume.html">Resume</a>
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+<div class="container">
+    <div class="row container-fluid">
+      <div class="col">
+        <h1 class="text-center" id="xmodemtitle">Xmodem Server
+
+            <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="buttonstyler">
+          <img src="plus.png" style="height: 40px; width: auto;">
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+
+                  <h5 class="modal-title" id="exampleModalLabel">About Xmodem Server</h5>
+                  
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+
+
+                <div class="modal-body">
+                  <p class="aboutxmodem">
+                    Developed an xmodem server
+                    for file transfer protocol to be
+                    able to connect xmodem clients
+                    and send files using the xmodem
+                    protocol in C.
+                  </p>
+
+
+
+                </div>
+
+
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </h1>
+      </div>
+    </div>
+
+    
+    <div class="row container-fluid">
+      <div class="col">
+        <video class="videomargin text-center" width="auto" height="auto" autoplay muted loop id="vid">
+          <source src="x1.mp4" type="video/mp4">
+        </video>
+        <p class="videomargin text-center servertext">
+          Client sending data to server.
+        </p>
+      </div>
+
+
+
+      <div class="col">
+        <video class="videomargin text-center" width="auto" height="auto" muted loop autoplay id="vid">
+          <source src="x2.mp4" type="video/mp4">
+        </video>
+        <script>
+          document.getElementById('vid').play();
+        </script>
+        <p class="videomargin text-center servertext">
+          Server receiving data from a client.
+        </p>
+      </div>
+    </div>
+
+
+
+
+    <div class="row container-fluid">
+      <div class="col">
+        <video class="videomargin text-center" width="auto" height="auto" muted loop autoplay id="vid">
+          <source src="server5.mp4" type="video/mp4">
+        </video>
+        <script>
+          document.getElementById('vid').play();
+        </script>
+      </div>
+      <p class="videomargin text-center servertext">
+        Example data client sends and server receives.
+      </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+<hr class="my-4 background-color: white" style="background-color: rgb(255, 255, 255);">
+
+<div class="row container-fluid">
+  <div class="col">
+    <h1 class="text-center" id="datatitle">Data Visualizer
+
+        <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="buttonstyler">
+      <img src="plus.png" style="height: 40px; width: auto;">
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+
+              <h5 class="modal-title" id="exampleModalLabel">About Data Visualizer</h5>
+              
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+
+            <div class="modal-body">
+              <p class="aboutdata">
+                Implemented a python visualizer
+                of a file hierarchy structure using
+                trees to represent the files and
+                folders on a computer’s file
+                system.
+              </p>
+
+
+
+            </div>
+
+
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </h1>
+  </div>
+</div>
+
+
+
+
+<div class="row container-fluid">
+  <div class="col">
+    <img src="DataVisualizer.png" alt="Othello Game" width="auto" height="auto" class="center">
+  <p class="videomargin text-center servertext">
+    Example data client sends and server receives.
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<hr class="my-4 background-color: white" style="background-color: rgb(255, 255, 255);">
+
+<div class="container">
+  <hr class="my-4 background-color: white" style="background-color: rgb(255, 255, 255);">
+  <div class="row container-fluid">
+    <div class="col">
+      <h1 class="text-center" id="othellotitle">Othello Board Game
+
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="buttonstyler">
+<img src="plus.png" style="height: 40px; width: auto;">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+
+      <h5 class="modal-title" id="exampleModalLabel">About Data Visualizer</h5>
+      
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+
+    <div class="modal-body">
+      <p class="aboutdata">
+        Implemented the “Othello”
+        board game in Java, using
+        effective object oriented
+        programming, git and
+        documentation for the code.
+      </p>
+    </div>
+
+
+
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+
+
+  </div>
+</div>
+</div>
+      </h1>
+
+
+
+
+    </div>
+
+  </div>
+
+  <div class="row container-fluid">
+    <div class="col">
+      <img src="OthelloGame.png" alt="Othello Game" width="auto" height="auto" class="center">
+      <p class="videomargin text-center servertext">
+        Othello Board Game where O and X are player 1 and player 2.
+      </p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

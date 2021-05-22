@@ -1,0 +1,101 @@
+.navtext{
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+.navlistspacer{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#chrisspacer{
+    margin-right: 45px;
+}
+
+#logoinline{
+    display: inline;
+}
+
+#progress-bar {
+    width: 50%;
+    background-color: rgb(48, 132, 193);
+}
+
+.skillstext{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.skillerstext{
+    display: inline;
+    float: left;
+}
+
+.progress-label {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.year-text {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.titlepadding{
+    padding: 30px;
+}
+
+#fixnav{
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+}
+
+.videomargin {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+#xmodemtitle {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.servertext {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+#buttonstyler {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#datatitle {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+
+.aboutxmodem{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.aboutdata{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+#othellotitle {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
